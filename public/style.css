@@ -23,10 +23,6 @@ nav span{
 font-size: 14.4608px;
 }
 
-hr{
-    border: 1px solid #F5F5F5;
-    margin:40px;
-}
 
 a{
     color: #918E9B;
@@ -38,17 +34,30 @@ a{
 
 .main{
     display: flex;
+    margin-bottom: 30px;
     align-items: center;
     margin-left: 40px;
-    
+    border-bottom: 1px solid #F5F5F5;
+    margin:40px;
+    padding-bottom: 40px;
 
+}
+
+.main:last-child{
+    border-bottom: none;
+}
+
+.main--top{
+   width: 125px;
+   margin-right: 20px;
 }
 
 .main--img{
     margin-right: 20px;
-    max-width: 125px;
+    width: 100%;
     height: 168px;
     border-radius: 5px;
+    
 }
 
 .main--country{
@@ -73,8 +82,15 @@ margin-right: 10px;
     font-weight: 700;
 }
 
+.main--data{
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
 .main--desc{
     width: 325px;
+
 }
 
 .main--spot{
