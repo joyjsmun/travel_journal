@@ -83,13 +83,14 @@ margin-right: 10px;
 }
 
 .main--data{
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+    height: 50px;
+    overflow: scroll;
+    text-overflow: ellipsis;
 }
 
 .main--desc{
     width: 325px;
+    
 
 }
 
